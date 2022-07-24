@@ -296,3 +296,50 @@
 2022-07-24 08:30:28,424 - support.logger - INFO - Inputting text {text}..
 2022-07-24 08:30:28,449 - support.logger - INFO - Started step: <then "Click on Login btn">
 2022-07-24 08:30:29,064 - support.logger - INFO - Started step: <then "Verify correct credentials Error: Unknown username. Check again or try your email address.">
+2022-07-24 11:10:42,470 - support.logger - INFO - Started scenario: User cannot login with a blank email and sees a correct error message
+2022-07-24 11:22:22,622 - support.logger - INFO - Started scenario: User cannot login with a blank email and sees a correct error message
+2022-07-24 11:28:51,087 - support.logger - INFO - Started scenario: User cannot login with a blank email and sees a correct error message
+2022-07-24 11:30:15,504 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-24 11:30:21,143 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-24 11:30:21,144 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-24 11:30:23,920 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-24 11:30:24,223 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-24 11:30:24,427 - support.logger - INFO - Inputting text {text}..
+2022-07-24 11:30:24,566 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-24 11:30:25,256 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-24 11:31:03,183 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-24 11:37:37,948 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-24 11:37:46,814 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-24 11:37:46,815 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-24 11:37:50,081 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-24 11:37:50,696 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-24 11:37:51,072 - support.logger - INFO - Inputting text {text}..
+2022-07-24 11:37:51,282 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-24 11:37:52,334 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-24 11:41:52,123 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-24 11:42:00,781 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-24 11:42:00,782 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-24 11:42:04,136 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-24 11:42:04,619 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-24 11:42:04,943 - support.logger - INFO - Inputting text {text}..
+2022-07-24 11:42:05,142 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-24 11:42:06,184 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-24 11:42:07,547 - support.logger - INFO - Started scenario: User cannot login with a blank email and sees a correct error message
+2022-07-24 11:42:16,040 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-24 11:42:16,049 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-24 11:42:19,197 - support.logger - INFO - Started step: <when "Click on PW field">
+2022-07-24 11:42:19,705 - support.logger - INFO - Started step: <when "Enter pw: test">
+2022-07-24 11:42:20,155 - support.logger - INFO - Inputting text {text}..
+2022-07-24 11:42:20,340 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-24 11:42:21,235 - support.logger - INFO - Started step: <then "Verify correct username error msg Error: Username is required.">
+2022-07-24 11:42:24,210 - support.logger - INFO - Started scenario: User cannot login with invalid credentials and sees a correct error message
+2022-07-24 11:42:33,828 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-24 11:42:33,830 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-24 11:42:36,827 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-24 11:42:37,339 - support.logger - INFO - Started step: <when "Enter email testtest.com">
+2022-07-24 11:42:37,705 - support.logger - INFO - Inputting text {text}..
+2022-07-24 11:42:37,886 - support.logger - INFO - Started step: <when "Click on PW field">
+2022-07-24 11:42:38,405 - support.logger - INFO - Started step: <when "Enter pw: a">
+2022-07-24 11:42:38,720 - support.logger - INFO - Inputting text {text}..
+2022-07-24 11:42:38,920 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-24 11:42:39,858 - support.logger - INFO - Started step: <then "Verify correct credentials Error: Unknown username. Check again or try your email address.">

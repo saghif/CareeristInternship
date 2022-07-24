@@ -19,7 +19,7 @@ def browser_init(context, test_name):
     :param context: Behave context
     :param test_name: scenario.name
     """
-    context.driver = webdriver.Chrome(executable_path='/Users/bojanskaljak/Desktop/JoBeASY/CareeristInternship/CareeristInternship/chromedriver')
+    #context.driver = webdriver.Chrome(executable_path='/Users/bojanskaljak/Desktop/JoBeASY/CareeristInternship/CareeristInternship/chromedriver')
     # context.driver = webdriver.Firefox(executable_path='/Users/bojanskaljak/Desktop/JoBeASY/python-selenium-automation/geckodriver')
     # context.driver = webdriver.Safari()
 
@@ -41,9 +41,19 @@ def browser_init(context, test_name):
     #     'os': 'OS X',
     #     'name': test_name
     # }
-    # url = f'http://{bs_user}:{bs_pw}@hub-cloud.browserstack.com/wd/hub'
-    # context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
-    #
+    desired_cap = {
+        'bstack:options': {
+            "osVersion": "10.0",
+            "deviceName": "Samsung Galaxy S20",
+            "realMobile": "true",
+            "local": "false",
+        },
+        "browserName": "chrome",
+    }
+
+    url = f'http://{bs_user}:{bs_pw}@hub-cloud.browserstack.com/wd/hub'
+    context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
+
     context.driver.maximize_window()
     context.driver.implicitly_wait(5)
     context.driver.wait = WebDriverWait(context.driver, 10)

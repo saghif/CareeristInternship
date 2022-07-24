@@ -1,6 +1,6 @@
 Feature: Account Login Error Handling
 
-  @smoke
+  @smoke @positive
   Scenario: User cannot login with a blank pw and sees a correct error message
     Given Open Gettop acc page
     When Click on Email field
