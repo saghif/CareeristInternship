@@ -12,8 +12,6 @@ from support.logger import logger, MyListener
 bs_user = 'saghifarhandi1'
 bs_pw = '2pqtfeyWJH4Hb3xWofgo'
 
-# Allure command:
-# a
 
 
 def browser_init(context, test_name):
@@ -49,7 +47,6 @@ def browser_init(context, test_name):
     context.driver.maximize_window()
     context.driver.implicitly_wait(5)
     context.driver.wait = WebDriverWait(context.driver, 10)
-    #
     context.app = Application(context.driver)
 
 

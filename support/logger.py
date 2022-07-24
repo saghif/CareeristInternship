@@ -1,5 +1,4 @@
 import logging
-
 from selenium.webdriver.support.events import AbstractEventListener
 
 logger = logging.getLogger(__name__)

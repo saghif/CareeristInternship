@@ -5,6 +5,8 @@ from pages.search_results_page import SearchResultsPage
 from pages.signin_page import SignInPage
 from pages.shopping_cart_page import ShoppingCardPage
 from pages.gettop_pageobject import Websitegettop
+
+
 class Application:
 
     def __init__(self, driver):

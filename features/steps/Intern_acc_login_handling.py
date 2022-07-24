@@ -1,7 +1,6 @@
 from selenium.webdriver.common.by import By
 from behave import given, when, then, step
 from selenium.webdriver.support import expected_conditions as EC
-from time import sleep
 
 
 EMAIL_FIELD = (By.CSS_SELECTOR, '#username')

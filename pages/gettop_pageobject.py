@@ -1,7 +1,6 @@
 from selenium.webdriver.common.by import By
 from pages.page_base_gettop import Gettop
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support.ui import Select
 
 
 class Websitegettop(Gettop):

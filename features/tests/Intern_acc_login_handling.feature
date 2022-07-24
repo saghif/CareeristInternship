@@ -8,6 +8,7 @@ Feature: Account Login Error Handling
     Then Click on Login btn
     Then Verify correct pw error msg Error: The password field is empty
 
+    @smoke @positive
   Scenario: User cannot login with a blank email and sees a correct error message
     Given Open Gettop acc page
     When Click on PW field
