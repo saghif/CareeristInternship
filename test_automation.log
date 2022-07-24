@@ -1,0 +1,298 @@
+2022-06-18 15:21:03,666 - support.logger - INFO - https://www.amazon.com
+2022-06-19 13:30:44,117 - support.logger - ERROR - Step failed: <when "Hover over language options">
+2022-06-19 13:31:03,897 - support.logger - ERROR - Step failed: <when "Select department by audible">
+2022-07-19 16:17:10,741 - support.logger - ERROR - Step failed: <then "Verify correct username error msg Error: Username is required.">
+2022-07-19 16:18:31,040 - support.logger - ERROR - Step failed: <then "Verify correct username error msg Error: Username is required.">
+2022-07-19 16:32:31,811 - support.logger - ERROR - Step failed: <then "Verify correct credentials Error: Unknown email address. Check again or try your username.">
+2022-07-19 16:35:17,822 - support.logger - ERROR - Step failed: <then "Verify correct credentials Error: Unknown email address. Check again or try your username.">
+2022-07-22 17:27:31,284 - support.logger - ERROR - Step failed: <then "Verify correct username error msg Error: Username is required.">
+2022-07-22 18:13:21,929 - support.logger - ERROR - Step failed: <given "Open Gettop acc page">
+2022-07-22 18:16:45,176 - support.logger - INFO - https://gettop.us/my-account/https://gettop.us/my-account/
+2022-07-22 18:25:02,531 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-22 18:25:05,595 - support.logger - INFO - Inputting text {text}..
+2022-07-22 18:49:31,596 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-22 18:49:39,652 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-22 18:49:39,652 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-22 18:49:42,417 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-22 18:49:42,418 - support.logger - INFO - Searching by css selector '#username'...
+2022-07-22 18:49:42,441 - support.logger - INFO - Found by css selector '#username'
+2022-07-22 18:49:42,511 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-22 18:49:42,511 - support.logger - INFO - Searching by css selector '#username'...
+2022-07-22 18:49:42,533 - support.logger - INFO - Found by css selector '#username'
+2022-07-22 18:49:42,558 - support.logger - INFO - Inputting text {text}..
+2022-07-22 18:49:42,647 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-22 18:49:42,647 - support.logger - INFO - Searching by xpath '//button[@class='woocommerce-button button woocommerce-form-login__submit']'...
+2022-07-22 18:49:42,663 - support.logger - INFO - Found by xpath '//button[@class='woocommerce-button button woocommerce-form-login__submit']'
+2022-07-22 18:49:43,251 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-22 18:49:43,252 - support.logger - INFO - Searching by xpath '//div[@class='message-container container alert-color medium-text-center']'...
+2022-07-22 18:49:43,286 - support.logger - INFO - Found by xpath '//div[@class='message-container container alert-color medium-text-center']'
+2022-07-22 19:06:18,643 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-22 19:06:30,161 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-22 19:06:30,162 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-22 19:06:33,008 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-22 19:06:33,316 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-22 19:06:33,546 - support.logger - INFO - Inputting text {text}..
+2022-07-22 19:06:33,759 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-22 19:06:34,490 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-23 10:02:05,837 - support.logger - INFO - Started scenario: User cannot login with a blank email and sees a correct error message
+2022-07-23 10:02:15,579 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:02:15,580 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 10:02:18,311 - support.logger - INFO - Started step: <when "Click on PW field">
+2022-07-23 10:02:18,630 - support.logger - INFO - Started step: <when "Enter pw: test">
+2022-07-23 10:02:18,855 - support.logger - INFO - Inputting text {text}..
+2022-07-23 10:02:19,007 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 10:02:19,721 - support.logger - INFO - Started step: <then "Verify correct username error msg Error: Username is required.">
+2022-07-23 10:09:36,042 - support.logger - INFO - Started scenario: User cannot login with invalid credentials and sees a correct error message
+2022-07-23 10:09:45,754 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:09:45,754 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 10:09:49,171 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-23 10:09:49,991 - support.logger - INFO - Started step: <when "Enter email testtest.com">
+2022-07-23 10:09:50,244 - support.logger - INFO - Inputting text {text}..
+2022-07-23 10:09:50,434 - support.logger - INFO - Started step: <when "Click on PW field">
+2022-07-23 10:09:50,918 - support.logger - INFO - Started step: <when "Enter pw: a">
+2022-07-23 10:09:51,198 - support.logger - INFO - Inputting text {text}..
+2022-07-23 10:09:51,315 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 10:09:52,761 - support.logger - INFO - Started step: <then "Verify correct credentials Error: Unknown username. Check again or try your email address.">
+2022-07-23 10:25:55,716 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 10:33:22,394 - support.logger - INFO - Started scenario: User Icannot login with a blank pw and sees a correct error message
+2022-07-23 10:33:31,653 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:33:31,654 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 10:33:34,693 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-23 10:33:34,878 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-23 10:33:35,044 - support.logger - INFO - Inputting text {text}..
+2022-07-23 10:33:35,263 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 10:33:35,945 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-23 10:33:37,146 - support.logger - INFO - Started scenario: User cannot login with a blank email and sees a correct error message
+2022-07-23 10:33:45,448 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:33:45,449 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 10:33:48,115 - support.logger - INFO - Started step: <when "Click on PW field">
+2022-07-23 10:33:48,421 - support.logger - INFO - Started step: <when "Enter pw: test">
+2022-07-23 10:33:48,736 - support.logger - INFO - Inputting text {text}..
+2022-07-23 10:33:48,918 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 10:33:49,642 - support.logger - INFO - Started step: <then "Verify correct username error msg Error: Username is required.">
+2022-07-23 10:33:51,281 - support.logger - INFO - Started scenario: User cannot login with invalid credentials and sees a correct error message
+2022-07-23 10:33:58,532 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:33:58,533 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 10:34:01,930 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-23 10:34:02,227 - support.logger - INFO - Started step: <when "Enter email testtest.com">
+2022-07-23 10:34:02,553 - support.logger - INFO - Inputting text {text}..
+2022-07-23 10:34:02,719 - support.logger - INFO - Started step: <when "Click on PW field">
+2022-07-23 10:34:03,127 - support.logger - INFO - Started step: <when "Enter pw: a">
+2022-07-23 10:34:03,445 - support.logger - INFO - Inputting text {text}..
+2022-07-23 10:34:03,644 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 10:34:04,400 - support.logger - INFO - Started step: <then "Verify correct credentials Error: Unknown username. Check again or try your email address.">
+2022-07-23 10:40:23,636 - support.logger - INFO - Started scenario: User Icannot login with a blank pw and sees a correct error message
+2022-07-23 10:40:32,062 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:40:32,063 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 10:40:34,950 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-23 10:40:35,324 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-23 10:40:35,563 - support.logger - INFO - Inputting text {text}..
+2022-07-23 10:40:35,732 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 10:40:36,584 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-23 10:40:38,214 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.1 
+2022-07-23 10:40:45,272 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 10:40:45,287 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 10:40:46,409 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.2 
+2022-07-23 10:40:53,005 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 10:40:53,006 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 10:40:53,921 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.3 
+2022-07-23 10:41:00,902 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 10:41:00,904 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 10:44:06,617 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 10:44:14,662 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:44:14,663 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 10:44:17,562 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-23 10:44:17,948 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-23 10:44:18,152 - support.logger - INFO - Inputting text {text}..
+2022-07-23 10:44:18,317 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 10:44:19,016 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-23 10:44:20,561 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.1 
+2022-07-23 10:44:28,466 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 10:44:28,477 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 10:44:29,434 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.2 
+2022-07-23 10:44:36,359 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 10:44:36,359 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 10:44:40,235 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.3 
+2022-07-23 10:44:48,229 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 10:44:48,239 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 10:44:52,558 - support.logger - INFO - Started scenario: Sign In page can be opened from SignIn popup
+2022-07-23 10:44:59,740 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 10:44:59,750 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 10:45:41,652 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 10:45:44,372 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:45:44,414 - support.logger - ERROR - Step failed: <given "Open Gettop acc page">
+2022-07-23 10:45:44,620 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.1 
+2022-07-23 10:45:46,410 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 10:45:46,426 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 10:45:46,755 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.2 
+2022-07-23 10:45:48,673 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 10:45:48,676 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 10:45:49,205 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.3 
+2022-07-23 10:45:51,233 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 10:45:51,260 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 10:45:51,615 - support.logger - INFO - Started scenario: Sign In page can be opened from SignIn popup
+2022-07-23 10:45:53,584 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 10:45:53,585 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 10:46:42,294 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 10:46:44,456 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:46:44,467 - support.logger - ERROR - Step failed: <given "Open Gettop acc page">
+2022-07-23 10:48:26,259 - support.logger - ERROR - Step failed: <given "Open Gettop acc page">
+2022-07-23 10:50:43,569 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 10:50:45,640 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:50:45,643 - support.logger - ERROR - Step failed: <given "Open Gettop acc page">
+2022-07-23 10:51:30,624 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 10:51:32,758 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:51:32,797 - support.logger - ERROR - Step failed: <given "Open Gettop acc page">
+2022-07-23 10:54:10,345 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 10:54:13,198 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:54:13,200 - support.logger - ERROR - Step failed: <given "Open Gettop acc page">
+2022-07-23 10:55:35,452 - support.logger - INFO - Started scenario: User cannot login with a blank email and sees a correct error message
+2022-07-23 10:55:37,549 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:55:37,554 - support.logger - ERROR - Step failed: <given "Open Gettop acc page">
+2022-07-23 10:57:43,745 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 10:57:45,743 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 10:57:45,746 - support.logger - ERROR - Step failed: <given "Open Gettop acc page">
+2022-07-23 11:00:25,344 - support.logger - INFO - Started scenario: User cannot login with a blank email and sees a correct error message
+2022-07-23 11:00:28,088 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 11:00:28,118 - support.logger - ERROR - Step failed: <given "Open Gettop acc page">
+2022-07-23 11:01:43,653 - support.logger - INFO - Started scenario: User cannot login with a blank email and sees a correct error message
+2022-07-23 11:01:45,830 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 11:01:45,852 - support.logger - ERROR - Step failed: <given "Open Gettop acc page">
+2022-07-23 11:03:55,400 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 11:03:57,664 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 11:03:57,664 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 11:04:00,521 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-23 11:04:00,639 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-23 11:04:00,682 - support.logger - INFO - Inputting text {text}..
+2022-07-23 11:04:00,866 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 11:04:01,392 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-23 11:04:10,940 - support.logger - INFO - Started scenario: User cannot login with invalid credentials and sees a correct error message
+2022-07-23 11:04:13,267 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 11:04:13,267 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 11:04:15,914 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-23 11:04:16,004 - support.logger - INFO - Started step: <when "Enter email testtest.com">
+2022-07-23 11:04:16,049 - support.logger - INFO - Inputting text {text}..
+2022-07-23 11:04:16,136 - support.logger - INFO - Started step: <when "Click on PW field">
+2022-07-23 11:04:16,194 - support.logger - INFO - Started step: <when "Enter pw: a">
+2022-07-23 11:04:16,242 - support.logger - INFO - Inputting text {text}..
+2022-07-23 11:04:16,267 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 11:04:16,717 - support.logger - INFO - Started step: <then "Verify correct credentials Error: Unknown username. Check again or try your email address.">
+2022-07-23 11:08:55,118 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 11:08:58,587 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 11:08:58,587 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 11:09:01,308 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-23 11:09:01,403 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-23 11:09:01,454 - support.logger - INFO - Inputting text {text}..
+2022-07-23 11:09:01,536 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 11:09:02,044 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-23 11:09:02,875 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.1 
+2022-07-23 11:09:05,180 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:09:05,247 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 11:09:05,391 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.2 
+2022-07-23 11:09:07,650 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:09:07,651 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 11:09:09,140 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.3 
+2022-07-23 11:09:11,379 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:09:11,380 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 11:09:11,567 - support.logger - INFO - Started scenario: Sign In page can be opened from SignIn popup
+2022-07-23 11:09:13,741 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:09:13,742 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 11:09:37,866 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 11:09:40,215 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 11:09:40,216 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 11:09:42,901 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-23 11:09:42,977 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-23 11:09:43,028 - support.logger - INFO - Inputting text {text}..
+2022-07-23 11:09:43,151 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 11:09:43,680 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-23 11:10:02,759 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 11:10:04,979 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 11:10:04,980 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 11:10:07,710 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-23 11:10:07,780 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-23 11:10:07,817 - support.logger - INFO - Inputting text {text}..
+2022-07-23 11:10:07,892 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 11:10:08,351 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-23 11:10:08,553 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.1 
+2022-07-23 11:10:10,714 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:10:10,740 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 11:10:10,891 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.2 
+2022-07-23 11:10:12,942 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:10:12,945 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 11:10:13,189 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.3 
+2022-07-23 11:10:15,346 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:10:15,348 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 11:10:15,650 - support.logger - INFO - Started scenario: Sign In page can be opened from SignIn popup
+2022-07-23 11:10:17,733 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:10:17,734 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 11:10:56,166 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 11:10:58,630 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 11:10:58,631 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 11:11:01,319 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-23 11:11:01,409 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-23 11:11:01,450 - support.logger - INFO - Inputting text {text}..
+2022-07-23 11:11:01,550 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 11:11:02,024 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-23 11:11:42,709 - support.logger - INFO - Started scenario: Sign In page can be opened from SignIn popup
+2022-07-23 11:11:45,065 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:11:45,085 - support.logger - ERROR - Step failed: <given "Open Amazon page">
+2022-07-23 11:15:23,593 - support.logger - INFO - Started scenario: Sign In page can be opened from SignIn popup
+2022-07-23 11:15:26,743 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:15:26,745 - support.logger - INFO - https://www.amazon.com
+2022-07-23 11:15:31,921 - support.logger - INFO - Started step: <when "Click on button from SignIn popup">
+2022-07-23 11:15:33,796 - support.logger - INFO - Started step: <then "Verify Sign In page is opened">
+2022-07-23 11:15:42,295 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-23 11:15:44,433 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-23 11:15:44,433 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-23 11:15:47,234 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-23 11:15:47,299 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-23 11:15:47,350 - support.logger - INFO - Inputting text {text}..
+2022-07-23 11:15:47,430 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-23 11:15:47,936 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-23 11:15:48,122 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.1 
+2022-07-23 11:15:50,323 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:15:50,323 - support.logger - INFO - https://www.amazon.com
+2022-07-23 11:15:54,968 - support.logger - INFO - Started step: <when "Search for table">
+2022-07-23 11:15:59,839 - support.logger - INFO - Started step: <then "Verify search results for "table" are shown">
+2022-07-23 11:16:01,374 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.2 
+2022-07-23 11:16:03,666 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:16:03,666 - support.logger - INFO - https://www.amazon.com
+2022-07-23 11:16:07,668 - support.logger - INFO - Started step: <when "Search for dress">
+2022-07-23 11:16:12,955 - support.logger - INFO - Started step: <then "Verify search results for "dress" are shown">
+2022-07-23 11:16:13,329 - support.logger - INFO - Started scenario: Verify that user can search for products -- @1.3 
+2022-07-23 11:16:15,408 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:16:15,409 - support.logger - INFO - https://www.amazon.com
+2022-07-23 11:16:19,891 - support.logger - INFO - Started step: <when "Search for spoons">
+2022-07-23 11:16:24,354 - support.logger - INFO - Started step: <then "Verify search results for "spoons" are shown">
+2022-07-23 11:16:26,145 - support.logger - INFO - Started scenario: Sign In page can be opened from SignIn popup
+2022-07-23 11:16:28,272 - support.logger - INFO - Started step: <given "Open Amazon page">
+2022-07-23 11:16:28,273 - support.logger - INFO - https://www.amazon.com
+2022-07-23 11:16:33,169 - support.logger - INFO - Started step: <when "Click on button from SignIn popup">
+2022-07-23 11:16:34,908 - support.logger - INFO - Started step: <then "Verify Sign In page is opened">
+2022-07-24 08:30:06,397 - support.logger - INFO - Started scenario: User cannot login with a blank pw and sees a correct error message
+2022-07-24 08:30:10,600 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-24 08:30:10,601 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-24 08:30:13,618 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-24 08:30:13,749 - support.logger - INFO - Started step: <when "Enter email test@test.com">
+2022-07-24 08:30:13,824 - support.logger - INFO - Inputting text {text}..
+2022-07-24 08:30:13,961 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-24 08:30:14,516 - support.logger - INFO - Started step: <then "Verify correct pw error msg Error: The password field is empty">
+2022-07-24 08:30:14,717 - support.logger - INFO - Started scenario: User cannot login with a blank email and sees a correct error message
+2022-07-24 08:30:18,619 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-24 08:30:18,621 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-24 08:30:21,521 - support.logger - INFO - Started step: <when "Click on PW field">
+2022-07-24 08:30:21,587 - support.logger - INFO - Started step: <when "Enter pw: test">
+2022-07-24 08:30:21,622 - support.logger - INFO - Inputting text {text}..
+2022-07-24 08:30:21,693 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-24 08:30:22,237 - support.logger - INFO - Started step: <then "Verify correct username error msg Error: Username is required.">
+2022-07-24 08:30:22,477 - support.logger - INFO - Started scenario: User cannot login with invalid credentials and sees a correct error message
+2022-07-24 08:30:25,292 - support.logger - INFO - Started step: <given "Open Gettop acc page">
+2022-07-24 08:30:25,293 - support.logger - INFO - Openinghttps://gettop.us/my-account/https://gettop.us/my-account/...
+2022-07-24 08:30:28,158 - support.logger - INFO - Started step: <when "Click on Email field">
+2022-07-24 08:30:28,221 - support.logger - INFO - Started step: <when "Enter email testtest.com">
+2022-07-24 08:30:28,255 - support.logger - INFO - Inputting text {text}..
+2022-07-24 08:30:28,335 - support.logger - INFO - Started step: <when "Click on PW field">
+2022-07-24 08:30:28,394 - support.logger - INFO - Started step: <when "Enter pw: a">
+2022-07-24 08:30:28,424 - support.logger - INFO - Inputting text {text}..
+2022-07-24 08:30:28,449 - support.logger - INFO - Started step: <then "Click on Login btn">
+2022-07-24 08:30:29,064 - support.logger - INFO - Started step: <then "Verify correct credentials Error: Unknown username. Check again or try your email address.">
